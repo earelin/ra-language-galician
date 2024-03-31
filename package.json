@@ -1,6 +1,6 @@
 {
   "name": "ra-language-galician",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Galician messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
   "author": "Xavier Carriba",
   "homepage": "https://github.com/earelin/ra-language-galician",
@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "clean": "rimraf dist",
-    "build": "npm run clean && tsc"
+    "build": "tsc"
   },
   "bugs": {
     "url": "https://github.com/earelin/ra-language-galician/issues"
