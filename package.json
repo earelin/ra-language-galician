@@ -27,5 +27,8 @@
   "peerDependencies": {
     "ra-core": "^4.16.0",
     "react": "*"
+  },
+  "volta": {
+    "node": "20.12.0"
   }
 }
