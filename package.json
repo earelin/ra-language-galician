@@ -5,9 +5,14 @@
   "author": "Xavier Carriba",
   "homepage": "https://github.com/earelin/ra-language-galician",
   "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "./dist"
+  ],
   "scripts": {
-    "clean": "rimraf pkg",
-    "build": "npm run clean && echo build"
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc"
   },
   "bugs": {
     "url": "https://github.com/earelin/ra-language-galician/issues"
