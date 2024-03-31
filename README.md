@@ -9,13 +9,13 @@ You can install this library via NPM or YARN.
 ### NPM
 
 ```bash
-npm i @earelin/ra-language-galician
+npm i ra-language-galician
 ```
 
 ### YARN
 
 ```bash
-yarn add @earelin/ra-language-galician
+yarn add ra-language-galician
 ```
 
 ## Use case
@@ -31,7 +31,7 @@ The usage is really simple:
 ```ts
 // i18nProvider.ts
 import polyglotI18nProvider from "ra-i18n-polyglot";
-import galicianMessages from "@earelin/ra-language-galician";
+import galicianMessages from "ra-language-galician";
 
 const messages = {
   gl: galicianMessages,
